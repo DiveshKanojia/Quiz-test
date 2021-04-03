@@ -281,7 +281,7 @@ function price() {
 
 //Function to display score.
 function displayScore() {
-    points.innerHTML = "Rs. " + totalPrice;
+    points.innerHTML = "Rs. " + totalPrice + "/-";
     quizContainer.style.display = 'none';
     scoreboard.style.display = 'block';
     lifeLineBox.style.display = 'none';
